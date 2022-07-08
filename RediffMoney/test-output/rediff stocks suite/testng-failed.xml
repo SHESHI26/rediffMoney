@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [rediff stocks suite]">
+  <test name="Adding Stocks Test Case(failed)">
+    <classes>
+      <class name="rediff.stocks.Stocks_Adding">
+        <methods>
+          <include name="adding1"/>
+        </methods>
+      </class> <!-- rediff.stocks.Stocks_Adding -->
+    </classes>
+  </test> <!-- Adding Stocks Test Case(failed) -->
+  <test name="Adding Mutual Funds Test Case(failed)">
+    <classes>
+      <class name="rediff.stocks.Mutualfunds">
+        <methods>
+          <include name="adding2"/>
+        </methods>
+      </class> <!-- rediff.stocks.Mutualfunds -->
+    </classes>
+  </test> <!-- Adding Mutual Funds Test Case(failed) -->
+  <test name="Adding MyWatchlist Stocks Test Case(failed)">
+    <classes>
+      <class name="rediff.stocks.MyWatchList_stocks">
+        <methods>
+          <include name="adding3"/>
+        </methods>
+      </class> <!-- rediff.stocks.MyWatchList_stocks -->
+    </classes>
+  </test> <!-- Adding MyWatchlist Stocks Test Case(failed) -->
+</suite> <!-- Failed suite [rediff stocks suite] -->
